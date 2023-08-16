@@ -1,0 +1,16 @@
+.main {
+    padding: 10px auto;
+    font-weight: normal;
+    width: 95%;
+    margin: auto;
+}
+
+main div {
+    background-color:#EAECF0;
+    color: #101828;
+     padding: 5px auto;
+     margin: 12px auto;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}

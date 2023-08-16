@@ -1,0 +1,21 @@
+.slack-git {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.slack-git p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.slack-git p img {
+    margin: 0px 6px;
+}
+
+@media screen and (max-width: 550px) {
+  img {
+      width: 35%;
+  }
+}
