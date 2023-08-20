@@ -6,9 +6,9 @@ const Footer = () => {
     return (
       <footer className="footer">
         <div>
-          <img src={kodeCampLogo} alt="" />
+          <img className="footerImg" src={kodeCampLogo} alt="KodeCamp Logo" />
           <p>KodeCamp Internship Task</p>
-          <img src={kodeHauzLogo} alt="Kodecamp Logo" />
+          <img className="footerImg" src={kodeHauzLogo} alt="KodeHauz Logo" />
         </div>
       </footer>
     );

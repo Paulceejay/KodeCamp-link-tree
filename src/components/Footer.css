@@ -1,7 +1,12 @@
-.footer {
+@media screen and (max-width: 550px) {
+.footerImg{
+  width: 20%;
+}
+}
+
+@media screen and (min-width: 550px) {
+  .footer {
   padding: 10px 0px 0px 0px;
-  /* width: 99%;
-    margin: auto; */
 }
 
 .footer div {
@@ -9,18 +14,4 @@
   justify-content: space-between;
   gap: 5px;
 }
-
-@media screen and (max-width: 550px) {
-  .footer {
-    width: 95%;
-    margin: auto;
-  }
-  .footer div {
-    flex-direction: column;
-    float: left;
-  }
-
-  img {
-      width: 35%;
-  }
 }
